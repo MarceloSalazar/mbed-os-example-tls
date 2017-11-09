@@ -5,8 +5,8 @@
     ],
     "config": {
         "network-interface":{
-            "help": "options are ETHERNET, WIFI_ESP8266, WIFI_ODIN, WIFI_IDW01M1, WIFI_RTW, MESH_LOWPAN_ND, MESH_THREAD",
-            "value": "ETHERNET"
+            "help": "options are ETHERNET, WIFI_ESP8266, WIFI_ODIN, WIFI_IDW01M1, WIFI_ISM43362, WIFI_RTW, MESH_LOWPAN_ND, MESH_THREAD",
+            "value": "WIFI_ISM43362"
         },
         "esp8266-tx": {
             "help": "Pin used as TX (connects to ESP8266 RX)",
@@ -20,10 +20,10 @@
             "value": true
         },
         "wifi-ssid": {
-            "value": "\"SSID\""
+            "value": "\"LM\""
         },
         "wifi-password": {
-            "value": "\"Password\""
+            "value": "\"xxxxxxxx\""
         }
     },
     "target_overrides": {
